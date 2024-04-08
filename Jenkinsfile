@@ -11,7 +11,7 @@ environment{
 
 
     stages {
-        stage('Clone-code') {
+        stage('Build') {
             steps {
                 sh 'mvn clean deploy'
             }
