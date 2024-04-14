@@ -42,7 +42,8 @@ environment{
                      echo '<--------------- Jar Publish Ended --------------->'  
             
             }
-        }   
+        }  
+      }      
        
     stage(" Docker Build ") {
       steps {
@@ -66,5 +67,5 @@ environment{
         }
     }
     }   
-  }   
+  
 } 
