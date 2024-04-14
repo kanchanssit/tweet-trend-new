@@ -1,7 +1,7 @@
 pipeline {
     agent{ 
         node{
-             label 'maven'// some block
+             label 'kanchan'// some block
         }
     }    
 environment{
