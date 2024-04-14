@@ -1,5 +1,5 @@
 def registry = 'https://kanchansandeep.jfrog.io'
-def imageName = 'https://kanchansandeep.jfrog.io/artifactory/docker-trial/demo-workshop'
+def imageName = '/jarstaging/com/valaxy/demo-workshop/2.1.2/demo-workshop-2.1.2.jar'
 def version   = '2.1.2'
 pipeline {
     agent{ 
