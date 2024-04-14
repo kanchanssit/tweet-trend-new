@@ -1,5 +1,5 @@
 def registry = 'https://kanchansandeep.jfrog.io'
-def imageName = 'kanchansandeep.jfrog.io/valaxy-docker-docker/kanchan'
+def imageName = 'kanchansandeep.jfrog.io//valaxy-docker-docker-local/kanchan'
 def version   = '2.1.2'
 pipeline {
     agent{ 
