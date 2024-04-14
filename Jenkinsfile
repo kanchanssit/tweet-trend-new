@@ -1,5 +1,5 @@
 def registry = 'https://kanchansandeep.jfrog.io'
-def imageName = '/jarstaging/com/valaxy/demo-workshop/2.1.2/demo-workshop-2.1.2.jar'
+def imageName = 'jarstaging/com/valaxy/demo-workshop/2.1.2/demo-workshop-2.1.2.jar'
 def version   = '2.1.2'
 pipeline {
     agent{ 
